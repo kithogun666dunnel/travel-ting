@@ -19,7 +19,7 @@ export default function Form({ onAddItems }) {
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
-      <h3> what do you need for tripp? bitchhh</h3>
+      <h3> What do you need for trip?</h3>
 
       <select
         value={quantity}
