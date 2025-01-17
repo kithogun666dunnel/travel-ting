@@ -18,7 +18,7 @@ body {
   font-size: 2.4rem;
   font-family: sans-serif;
   color: #5a3e2b;
-  font-family: "Quicksand";
+  font-family: "gilroy";
   font-weight: 500;
 }
 
@@ -31,7 +31,7 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
+  background-color: #cc1717;
   font-family: "Monoton";
   font-size: 8rem;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .add-form {
-  background-color: #e5771f;
+  background-color: #971460;
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ button,
 select,
 input {
   background-color: #ffebb3;
-  color: #5a3e2b;
+  color: #14af33;
   font-family: inherit;
   border: none;
   border-radius: 10rem;
@@ -75,7 +75,7 @@ input {
 }
 
 .list {
-  background-color: #5a3e2b;
+  background-color: #1c1494;
   color: #ffebb3;
   padding: 4rem 0;
 

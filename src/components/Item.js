@@ -9,7 +9,7 @@ export default function Item({ item, onDeletItem, onToggleItem }) {
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
         {item.quantity} {item.description}
       </span>
-      <button onClick={() => onDeletItem(item.id)}>&times</button>
+      <button onClick={() => onDeletItem(item.id)}>❌</button>
     </li>
   );
 }
