@@ -5,11 +5,13 @@ import PackingList from "./PackingList";
 import Stats from "./Stats";
 
 export default function App() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]); //-->coz we will want out initial list empty
+  //!--> we need this state in packing list so we lift the state up ...to the app component.
 
   function handleAddItem(item) {
     setItems((items) => [...items, item]);
   }
+  //? --> we will also use the earlier placed items  with our newly added item.
 
   function handleDeleteItem(id) {
     setItems((items) => items.filter((item) => item.id !== id));
